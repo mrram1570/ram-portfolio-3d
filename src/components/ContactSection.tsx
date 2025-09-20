@@ -19,7 +19,7 @@ export function ContactSection() {
     // Create mailto link
     const subject = `Contact from ${formData.name}`;
     const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
-    const mailtoLink = `mailto:jram.developer@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:RAMPANDU8328@GMAIL.COM?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     
     window.location.href = mailtoLink;
     toast.success("Opening email client...");
@@ -36,7 +36,7 @@ export function ContactSection() {
   };
 
   const contactInfo = [
-    { label: "Email", value: "jram.developer@example.com", icon: "📧" },
+    { label: "Email", value: "RAMPANDU8328@GMAIL.COM", icon: "📧" },
     { label: "Location", value: "Available Worldwide", icon: "🌍" },
     { label: "Response Time", value: "Within 24 hours", icon: "⚡" }
   ];

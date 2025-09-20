@@ -28,8 +28,12 @@ export function AboutSection() {
           >
             <Card className="glass-card p-8 btn-3d">
               <div className="flex items-center space-x-6">
-                <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-4xl font-bold text-white animate-glow">
-                  J.R
+                <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary/30 animate-glow">
+                  <img 
+                    src="/src/assets/profile-photo.jpg" 
+                    alt="J.RAM Profile" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div>
                   <h3 className="text-3xl font-bold text-foreground mb-2">J.RAM</h3>
@@ -71,9 +75,9 @@ export function AboutSection() {
                     transition={{ duration: 0.6, delay: 0.6 }}
                     viewport={{ once: true }}
                   >
-                    2+
+                    New
                   </motion.div>
-                  <p className="text-muted-foreground">Years Experience</p>
+                  <p className="text-muted-foreground">Fresher</p>
                 </div>
                 <div className="text-center">
                   <motion.div 

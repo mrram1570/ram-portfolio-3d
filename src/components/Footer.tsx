@@ -58,7 +58,7 @@ export function Footer() {
             className="border-t border-border pt-8"
           >
             <p className="text-sm text-muted-foreground">
-              © 2024 MR.RAM PORTFOLIO. All rights reserved.
+              © 2025 MR.RAM PORTFOLIO. All rights reserved.
             </p>
             <p className="text-xs text-muted-foreground mt-2">
               Built with React, TypeScript, Three.js & ❤️

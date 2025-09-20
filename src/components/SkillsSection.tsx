@@ -5,7 +5,7 @@ export function SkillsSection() {
   const skills = [
     {
       category: "Programming Languages",
-      items: ["C Programming", "Java Basics", "JavaScript ES6+", "TypeScript"],
+      items: ["C Programming", "Java Developer", "JavaScript ES6+", "TypeScript"],
       color: "from-primary to-primary/70",
       icon: "💻"
     },
