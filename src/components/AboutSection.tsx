@@ -1,5 +1,6 @@
 import { Card } from '@/components/ui/card';
 import { motion } from 'framer-motion';
+import profilePhoto from '@/assets/profile-photo.jpg';
 
 export function AboutSection() {
   return (
@@ -30,7 +31,7 @@ export function AboutSection() {
               <div className="flex items-center space-x-6">
                 <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary/30 animate-glow">
                   <img 
-                    src="/src/assets/profile-photo.jpg" 
+                    src={profilePhoto} 
                     alt="J.RAM Profile" 
                     className="w-full h-full object-cover"
                   />
